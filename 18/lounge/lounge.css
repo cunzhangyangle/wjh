@@ -47,4 +47,32 @@ h2{
   background-image: url(images/cocktail.gif);
   background-repeat: repeat-x;
   text-align: center;
+  line-height: 1;
+}
+div h2{
+  color: black;
+}
+div h3{
+  color: #d12c47;
+}
+.footer{
+  font-size: .5em;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+.cd{
+  font-style: italic;
+}
+.artist{
+  font-weight: bold;
+}
+.elixirs a:link{
+  color: #007e7e;
+}
+.elixirs a:visited{
+  color: #333;
+}
+.elixirs a:hover{
+  color: #0d5353;
 }
