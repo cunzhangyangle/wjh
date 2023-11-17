@@ -77,12 +77,3 @@ a:visited {
   z-index: 100;
 }
 
-.ad{
-position: absolute;
-top: 150px;
-left: 100px;
-width: 600px;
-height: 80px;
-background-color: #cb0;
-z-index: 1;
-}
