@@ -25,10 +25,7 @@ body {
   margin:           0px 10px 10px 10px;
   width:            280px;
   float:            right;
-  position:         absolute;
-  top:              100px;
-  right:            200px;
-  width:            280px;
+  
 }
 
 .footer {
@@ -70,4 +67,22 @@ a:visited {
   background-color: #675c47;
   margin-left:      auto;
   margin-right:     auto;
+}
+
+.sidebar{
+  position:         absolute;
+  top:              100px;
+  right:            200px;
+  width:            280px;
+  z-index: 100;
+}
+
+.ad{
+position: absolute;
+top: 150px;
+left: 100px;
+width: 600px;
+height: 80px;
+background-color: #cb0;
+z-index: 1;
 }
