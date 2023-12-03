@@ -1,0 +1,26 @@
+.title{
+    float: left;
+    padding-right: 2rem;
+    margin-right: 20rem;
+    margin-bottom: 2rem;
+    margin-left: 18rem;
+    position: relative;
+}
+.subheading{
+    float: left;
+    margin-left: 46rem;
+    position: relative;
+
+ 
+}
+.list-title{
+    font-size: 2.4444444444rem;
+    line-height: 1.1818181818;
+    display: block;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    margin-top: 1.2222222222rem;
+}
