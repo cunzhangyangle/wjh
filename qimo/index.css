@@ -22,5 +22,7 @@
 a{
     display: flex;
     text-decoration: none;
-    margin-top: 1.2222222222rem;
+    margin-top: 2rem;
+    text-decoration: underline;
+    
 }
