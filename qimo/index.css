@@ -1,28 +1,47 @@
-.title{
-    float: left;
-    padding-right: 2rem;
-    margin-right: 20rem;
-    margin-bottom: 2rem;
-    margin-left: 18rem;
-    position: relative;
-}
-.subheading{
-    float: left;
-    margin-left: 46rem;
-    position: relative;
-
- 
-}
-.list-title{
-    font-size: 2.4444444444rem;
-    line-height: 1.1818181818;
-    display: block;
-}
-
-a{
+.container{
     display: flex;
-    text-decoration: none;
-    margin-top: 2rem;
-    text-decoration: underline;
-    
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.block1{
+    margin-right: auto;
+    margin-top: 0;
+    padding-right: 2rem;
+    position: relative;
+    float: left;
+}
+
+.block2{
+    margin-left: auto;
+    background: none;
+    margin-bottom: 1.2222222222rem;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    position: relative;
+    float: left;
+}
+
+.icon1{
+    padding-left: 10px;
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    margin: 0;
+    max-width: 100%;
+}
+
+.block3{
+    position: relative;
+    width: 100%;
+}
+
+.block4{
+    margin-right: auto;
+    position: relative;
+}
+.block5{ 
+    margin-left: auto;
+    position: relative;
 }
