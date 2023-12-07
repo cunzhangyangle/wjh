@@ -45,3 +45,135 @@
     margin-left: auto;
     position: relative;
 }
+
+.block6{
+    overflow: visible;
+    position: relative;
+    width: 100%;
+    list-style: none;
+    margin-left: auto;
+    padding: 0;
+}
+
+ul{
+    margin: 0 0 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.block7{
+    list-style: none;
+    padding: 0;
+    box-sizing: content-box;
+    display: flex;
+    height: 100%;
+    position: relative;
+    transition-property: all;
+    width: 100%;
+}
+
+.block8{
+    opacity: 1;
+    height: auto;
+    flex-shrink: 0;
+    position: relative;
+    transition-property: all;
+    list-style: none;
+    padding: 0;
+}
+li{
+    display: list-item;
+    text-align: start;
+}
+
+.block9{
+    background-color: white;
+    border-color: #f0f0f0;
+    color: black;
+    border: 1px solid #1d1d1d;
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
+
+.block10{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+
+a{
+    color: currentColor;
+    text-decoration-skip-ink: auto;
+    background-color: transparent;
+}
+
+.block11{
+    flex: none;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.block12{
+    margin-bottom: 0;
+    font-size: 1.2222222222rem;
+    line-height: 1.3636363636;
+    text-align: left;
+}
+
+h2{
+    font-size: 2.4444444444rem;
+    line-height: 1.1818181818;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 500;
+    margin: 0 0 0.5em;
+    font-family: Helvetica Neue,helvetica,arial,sans-serif;
+}
+
+h3{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 500;
+    margin: 0 0 0.5em;
+    font-family: Helvetica Neue,helvetica,arial,sans-serif;
+}
+
+.block13{
+    padding-top: 40px;
+    width: calc(100%-80%);
+    flex: none;
+    margin: auto;
+    order: -1;
+    position: relative;
+    text-align: center;
+}
+
+.block14{
+    position: relative;
+}
+
+.block15{
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: fill;
+    opacity: 1;
+    height: auto;
+    margin: 0;
+    max-width: 100%;
+    transition: all;
+    border-style: none;
+}
