@@ -1,3 +1,7 @@
+body{
+    background-color: #e5e5e5;
+}
+
 .container{
     display: flex;
     flex-flow: row wrap;
@@ -97,6 +101,11 @@ li{
     display: block;
     height: 100%;
     text-decoration: none;
+    transition: width 3s;
+}
+
+.block9:hover{
+    width: 350px;
 }
 
 .block10{
@@ -154,7 +163,7 @@ h3{
 
 .block13{
     padding-top: 40px;
-    width: calc(100%-80%);
+    width: calc(100% - 80px);
     flex: none;
     margin: auto;
     order: -1;
@@ -169,11 +178,10 @@ h3{
 .block15{
     margin-left: auto;
     margin-right: auto;
-    object-fit: fill;
+    object-fit: contain;
     opacity: 1;
     height: auto;
     margin: 0;
     max-width: 100%;
-    transition: all;
     border-style: none;
 }
