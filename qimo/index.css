@@ -46,11 +46,11 @@ body{
 
 .block4{
     margin-right: auto;
-    position: relative;
+    
 }
 .block5{ 
     margin-left: auto;
-    position: relative;
+    
 }
 
 .block6{
@@ -107,7 +107,7 @@ li{
     transform: translate(-50%, -50%) scale(1);
     left: 50%;
     top: 50%;
-    transition: transform 0.5s ;
+    transition: transform 0.5s;
     position: relative;
 }
 
@@ -207,4 +207,39 @@ h3{
 .block17{
     display: flex;
     justify-content: center;
+    
+}
+
+.block18{
+    background-color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 12px;
+    margin: 0 4px;
+    transform: translate(0, 0) scale(1);
+    left: 50%;
+    top: 50%;
+    transition: transform 0.5s;
+    width: 12px;
+}
+
+.block18:hover{
+    transform: translate(0, 0) scale(1.2);
+}
+
+.block19{
+    background-color: rgba(0,0,0,.2);
+    border-radius: 50%;
+    cursor: pointer;
+    height: 12px;
+    margin: 0 4px;
+    transform: translate(0, 0) scale(1);
+    left: 50%;
+    top: 50%;
+    transition: transform 0.5s;
+    width: 12px;
+}
+
+.block19:hover{
+    transform: translate(0, 0) scale(1.2);
 }
