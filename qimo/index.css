@@ -1,8 +1,9 @@
 body{
     background-color: #e5e5e5;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 50px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 10px;
+    z-index: auto;
 }
 
 .container{
@@ -28,6 +29,7 @@ body{
     display: flex;
     position: relative;
     float: left;
+    text-decoration: none;
 }
 
 .icon1{
@@ -47,16 +49,15 @@ body{
 .block4{
     margin-left: 50px;
     left: calc(-50vw + 50%);
+    transform: rotateX(180deg);
     margin-top: 0;
     position: absolute;
     top: 50%;
-    z-index: 1;
     cursor: default;
     margin-right: 10px;
     background: none;
     border: 0;
     line-height: 0;
-    padding: 0;
     display: inline-block;
     vertical-align: middle;
     width: auto;
@@ -66,11 +67,10 @@ body{
 }
 
 .block5{ 
-    margin-right: 50px;
+    margin-right: 100px;
     right: calc(-50vw + 50%);
     margin-top: 0;
     top: 50%;
-    z-index: 1;
     position: absolute;
     margin-left: 10px;
     background: none;
@@ -134,7 +134,7 @@ li{
     background-color: white;
     border-color: #f0f0f0;
     color: black;
-    display: block;
+    display: flex;
     height: 100%;
     text-decoration: none;
     transform: translate(-50%, -50%) scale(1);
@@ -149,17 +149,20 @@ li{
 }
 
 .block10{
-    text-decoration: none;
+    
     display: flex;
     flex-direction: column;
     height: 100%;
     position: relative;
 }
 
+
+
 a{
     color: currentColor;
-    text-decoration-skip-ink: auto;
+    text-decoration-skip-ink: none;
     background-color: transparent;
+    text-decoration: none;    
 }
 
 .block11{
@@ -177,9 +180,30 @@ a{
     text-align: left;
     float: none;
     font-weight: 700;
+    display: flex;
+    position: relative;
+    transition: 0.2s all linear;
 }
 
-h2{
+.block12::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-bottom: 2px solid #000;
+    transition: 0.2s all linear;
+}
+
+.block12:hover::before{
+    width: 100%;
+    bottom: 0;
+    left: 0%;
+    transition-delay: 0.1s;
+}
+
+h1{
     font-size: 2.4444444444rem;
     line-height: 1.1818181818;
     display: block;
@@ -187,9 +211,10 @@ h2{
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: 500;
+    font-weight: 300;
     margin: 0 0 0.5em;
     font-family: Helvetica Neue,helvetica,arial,sans-serif;
+    font-weight: bold;
 }
 
 h3{
@@ -249,7 +274,7 @@ h3{
     cursor: pointer;
     height: 12px;
     margin: 0 4px;
-    transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(0.8);
     left: 50%;
     top: 50%;
     transition: transform 0.5s;
@@ -257,7 +282,7 @@ h3{
 }
 
 .block18:hover{
-    transform: translate(0, 0) scale(1.2);
+    transform: translate(0, 0) scale(1);
 }
 
 .block19{
@@ -266,7 +291,7 @@ h3{
     cursor: pointer;
     height: 12px;
     margin: 0 4px;
-    transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(0.8);
     left: 50%;
     top: 50%;
     transition: transform 0.5s;
@@ -274,7 +299,7 @@ h3{
 }
 
 .block19:hover{
-    transform: translate(0, 0) scale(1.2);
+    transform: translate(0, 0) scale(1);
 }
 
 .block20{
@@ -285,10 +310,46 @@ h3{
     width: 50px;
     display: inline-block;
     transform: rotateY(180deg);
+    position: relative;
 }
 
 .block21{
     height: 50px;
     width: 50px;
     display: inline-block;
+    position: absolute;
+    
+}
+
+.block22{
+    display: flex;
+    position: relative;
+    transition: 0.2s all linear;
+}
+
+.block22::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    width: 0;
+    height: 100%;
+    border-bottom: 2px solid #000;
+    transition: 0.2s all linear;
+}
+
+.block22:hover::before{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition-delay: 0.1s;
+}
+
+.block21:hover{
+    
+    content: url(../qimo/images/icon-chevron-white.svg) ;
+    width: 50px;
+    height: 50px;
 }
