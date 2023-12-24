@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 a {
   text-decoration: none;
@@ -71,7 +72,11 @@ ul {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-}
+  overflow: hidden;
+  transition-duration:100s;
+  transition: opacity 0.5s ease;
+  }
+
 .container .header .nav ul:last-child li .submenu ul li {
   padding: 10px 0;
   width: 30%;
@@ -538,6 +543,9 @@ ul {
 .container .swiper .swiper_content .swiper_box {
   flex: 1;
 }
+.container .swiper .swiper_content .swiper_box:hover{
+transform: skewX(5deg);
+}
 .container .swiper .swiper_content .swiper_box a {
   display: block;
   position: relative;
@@ -582,6 +590,8 @@ ul {
   background-color: #fff;
   color: #000;
   cursor: pointer;
+  transform:translate(-10%,-50%) scale(1);
+transition: transform 0.5s;
 }
 .container .swiper .swiper_next span i {
   font-size: 20px;
@@ -589,6 +599,7 @@ ul {
 .container .swiper .swiper_next:hover {
   color: #fff;
   background-color: #000;
+  transform:translate(-10%,-50%) scale(0.8);
 }
 .container .swiper .swiper_pre {
   position: absolute;
@@ -603,10 +614,13 @@ ul {
   background-color: #fff;
   color: #000;
   cursor: pointer;
+transform:translate(-10%,-50%) scale(1);
+transition: transform 0.5s;
 }
 .container .swiper .swiper_pre:hover {
   color: #fff;
   background-color: #000;
+  transform:translate(-10%,-50%) scale(0.8);
 }
 .container .swiper .swiper_pre span i {
   font-size: 20px;
@@ -735,10 +749,13 @@ ul {
   color: #fff;
   background-color: #000;
   cursor: pointer;
+  transform:translate(-10%,-50%) scale(1);
+  transition: transform 0.5s;
 }
 .container .shop .swiper_next:hover {
   color: #000;
   background-color: #fff;
+  transform:translate(-10%,-50%) scale(0.8);
 }
 .container .shop .swiper_next span i {
   font-size: 20px;
@@ -756,10 +773,13 @@ ul {
   color: #fff;
   background-color: #000;
   cursor: pointer;
+  transform:translate(-10%,-50%) scale(1);
+  transition: transform 0.5s;
 }
 .container .shop .swiper_pre:hover {
   color: #000;
   background-color: #fff;
+  transform:translate(-10%,-50%) scale(0.8);
 }
 .container .shop .swiper_pre span i {
   font-size: 20px;

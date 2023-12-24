@@ -319,7 +319,8 @@ h3{
     width: 50px;
     display: inline-block;
     position: absolute;
-    
+    transition: transform 0.5s;
+    transform: translate(0, 0) scale(1);
 }
 
 .block22{
@@ -352,6 +353,7 @@ h3{
     content: url(../qimo/images/icon-chevron-white.svg);
     width: 50px;
     height: 50px;
+    transform: translate(0, 0) scale(0.9);
 }
 
 
